@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CLEAR‑4 KMU Framework</title>
+  <style>
+  <link rel="stylesheet" href="styles.css"> </style>
+</head>
+<body>
+
+  <!-- HEADER / NAVIGATION -->
+  <header class="top" role="banner">
+    <div class="brand">
+      <div class="brand-title">Ihr KMU</div>
+      <div class="brand-sub">Klare Website. Ruhiges Design.</div>
+    </div>
+    <button class="nav-toggle" type="button" aria-label="Menü öffnen">☰</button>
+    <nav class="nav-main" aria-label="Hauptnavigation">
+      <button class="nav-item current" data-target="#start" type="button">Start</button>
+      <button class="nav-item" data-target="#leistungen" type="button">Leistungen</button>
+      <button class="nav-item" data-target="#ueber-uns" type="button">Über uns</button>
+      <button class="nav-item" data-target="#kontakt" type="button">Kontakt</button>
+    </nav>
+  </header>
+
+  <main class="page" aria-label="Seiteninhalt">
+    <!-- HERO / STARTBEREICH -->
+    <section id="start" class="hero" aria-labelledby="hero-title">
+      <div class="hero-label">CLEAR‑4 · KMU</div>
+      <h1 id="hero-title">Ruhige, klare Webseiten für lokale Unternehmen.</h1>
+      <p>
+        Diese Vorlage ist das Herz des CLEAR‑4 KMU Frameworks. Sie ist schlicht genug für Handwerk,
+        Industrie, Praxen und Gemeinden – und flexibel genug, um fast jedes lokale Unternehmen abzubilden.
+      </p>
+      <div class="hero-actions">
+        <button class="btn btn-primary" type="button" data-target="#kontakt">Anfrage stellen</button>
+        <button class="btn btn-ghost" type="button" data-target="#leistungen">Leistungen ansehen</button>
+      </div>
+    </section>
+
+    <!-- LEISTUNGEN / PRODUKTE -->
+    <section id="leistungen" class="section" aria-labelledby="leistungen-title">
+      <header class="section-header">
+        <div class="section-label">Angebot</div>
+        <h2 id="leistungen-title" class="section-title">Leistungen & Produkte</h2>
+      </header>
+      <div class="section-grid cols-3">
+        <article class="card">
+          <h3>Leistung A</h3>
+          <p>Kurze, ruhige Beschreibung. Was ist es, für wen ist es, welches Problem löst es?</p>
+        </article>
+        <article class="card">
+          <h3>Leistung B</h3>
+          <p>Ein zweites, typisches Angebot. Immer in einfachen Worten formuliert.</p>
+        </article>
+        <article class="card">
+          <h3>Leistung C</h3>
+          <p>Optional: Service, Beratung, Unterhalt, Wartung oder ein Zusatzprodukt.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ÜBER UNS / UNTERNEHMEN -->
+    <section id="ueber-uns" class="section" aria-labelledby="ueber-title">
+      <header class="section-header">
+        <div class="section-label">Unternehmen</div>
+        <h2 id="ueber-title" class="section-title">Über uns</h2>
+      </header>
+      <div class="section-grid cols-2">
+        <article class="card">
+          <h3>Wer wir sind</h3>
+          <p>
+            Ein ruhiger Textblock, der das Unternehmen vorstellt: Gründung, Werte, Arbeitsweise,
+            Region und typische Kunden.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Was uns wichtig ist</h3>
+          <p>
+            Stichworte wie Qualität, Zuverlässigkeit, Nachhaltigkeit, Nähe oder Sicherheit können hier
+            in einfachen Sätzen erklärt werden.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- KONTAKT / STANDORT -->
+    <section id="kontakt" class="section" aria-labelledby="kontakt-title">
+      <header class="section-header">
+        <div class="section-label">Kontakt</div>
+        <h2 id="kontakt-title" class="section-title">So erreichen Sie uns</h2>
+      </header>
+      <div class="section-grid cols-2">
+        <article class="card">
+          <h3>Adresse & Kontakt</h3>
+          <ul class="info-list">
+            <li>
+              <div class="info-label">Adresse</div>
+              <div class="info-value">Musterstrasse 1<br>2500 Musterort</div>
+            </li>
+            <li>
+              <div class="info-label">Telefon</div>
+              <div class="info-value">+41 00 000 00 00</div>
+            </li>
+            <li>
+              <div class="info-label">E-Mail</div>
+              <div class="info-value">info@ihr-kmu.ch</div>
+            </li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Öffnungszeiten</h3>
+          <ul class="info-list">
+            <li><div class="info-value">Mo–Fr · 07:30–12:00 / 13:30–17:00</div></li>
+            <li><div class="info-value">Sa nach Vereinbarung</div></li>
+          </ul>
+          <p style="margin-top:var(--s16);font-size:14px;color:var(--text-muted);">
+            Kurzinfo, z.B. Zufahrt, Parkplatz, Anlieferung oder Notfallnummer.
+          </p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>© <span id="year"></span> Ihr KMU</div>
+    <nav class="footer-nav" aria-label="Footer-Navigation">
+      <a href="#start">Start</a>
+      <a href="#leistungen">Leistungen</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
