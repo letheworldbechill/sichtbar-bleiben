@@ -1,0 +1,34 @@
+:root {
+  /* Spacing – 4px-Raster */
+  --s4:4px;--s8:8px;--s12:12px;--s16:16px;--s20:20px;--s24:24px;
+  --s32:32px;--s40:40px;--s48:48px;
+
+  /* BRANDING – barrierefrei optimiert */
+  --brand: #0A659F;       /* dunkleres Blau, AA-konform auf Weiß */
+  --brand-hover: #084F7A; /* dunkler für Hover, stabiler Kontrast */
+  --brand-soft: #E3F0FA;  /* heller Hintergrund, kein zu schwaches Blau */
+
+  /* AKZENT – Gold/Amber neu kontrastoptimiert */
+  --accent: #B47A00;      /* leicht dunkler für besseren Kontrast */
+  --accent-hover: #8C6000;
+
+  /* GRUNDFLÄCHEN – helle neutrale Palette */
+  --bg: #F5F5F4;          /* bleibt */
+  --surface: #FFFFFF;
+  --surface-alt: #FAFAF9; /* optional neutraler Layer */
+  --border: #D6D5D3;      /* etwas dunkler für sichtbare Abgrenzungen */
+
+  /* TEXT – optimiert für Barrierefreiheit */
+  --text: #1B1B1B;        /* dunkler als 222 -> sicherer Kontrast */
+  --text-soft: #4A4A4A;   /* statt 555 -> bessere Lesbarkeit */
+  --text-muted: #757575;  /* statt 888 -> weniger „washed“ */
+
+  /* Radius */
+  --r8:8px;--r12:12px;--r16:16px;--r20:20px;--rPill:999px;
+
+  /* Schatten */
+  --sh-soft:0 4px 12px rgba(0,0,0,0.06);
+  --sh-deep:0 18px 45px rgba(0,0,0,0.16);
+
+  font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
